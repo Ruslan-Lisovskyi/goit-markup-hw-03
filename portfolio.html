@@ -24,11 +24,11 @@
   <body>
     <header class="page-header">
       <div class="container header-container">
-        <nav class="page-header nav">
-          <a href="./index.html" class="logo link"
-            >Web<span class="logo-dark">Studio</span></a
-          >
-          <ul class="page-header list">
+        <a href="./index.html" class="logo link"
+          >Web<span class="logo-dark">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="site-nav list">
             <li class="nav-item">
               <a href="./index.html" class="page-header-link link">Студия</a>
             </li>
@@ -46,12 +46,12 @@
         </nav>
         <ul class="auth-nav list">
           <li class="auth-item">
-            <a href="mailto:info@devstudio.com" class="auth-nav link"
+            <a href="mailto:info@devstudio.com" class="auth-nav-link link"
               >info@devstudio.com</a
             >
           </li>
           <li class="auth-item">
-            <a href="tel:+380961111111" class="auth-nav link"
+            <a href="tel:+380961111111" class="auth-nav-link link"
               >+38 096 111 11 11</a
             >
           </li>
@@ -60,115 +60,113 @@
     </header>
 
     <main>
-      <section class="portfolio">
-        <div class="container f-btn">
+      <section class="section">
+        <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
           <ul class="filters list">
-            <li class="fb-item">
-              <button type="button" class="filters-btn btn-all">Все</button>
+            <li class="filters-item">
+              <button type="button" class="filters-btn">Все</button>
             </li>
-            <li class="fb-item">
+            <li class="filters-item">
               <button type="button" class="filters-btn">Веб-сайты</button>
             </li>
-            <li class="fb-item">
+            <li class="filters-item">
               <button type="button" class="filters-btn">Приложения</button>
             </li>
-            <li class="fb-item">
+            <li class="filters-item">
               <button type="button" class="filters-btn">Дизайн</button>
             </li>
-            <li class="fb-item">
+            <li class="filters-item">
               <button type="button" class="filters-btn">Маркетинг</button>
             </li>
           </ul>
-        </div>
 
-        <div class="container">
-          <ul class="portfolio list">
-            <li class="fc-item">
+          <ul class="portfolio-list list">
+            <li class="portfolio-item">
               <img
                 src="./images/2img1.jpg"
                 alt="три портфолио на рабочем столе"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Технокряк</h2>
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img
                 src="./images/2img2.jpg"
                 alt="блок броска баскетболистом"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">
                   Постер New Orlean vs Golden Star
                 </h2>
                 <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img
                 src="./images/2img3.jpg"
                 alt="надпись ресторан seafood"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Ресторан Seafood</h2>
                 <p class="portfolio-text">Приложение</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img
                 src="./images/2img4.jpg"
                 alt="большие наушники"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Проект Prime</h2>
                 <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img src="./images/2img5.jpg" alt="две коробки" width="370" />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Проект Boxes</h2>
                 <p class="portfolio-text">Приложение</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img src="./images/2img6.jpg" alt="монитор" width="370" />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Inspiration has no Borders</h2>
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img src="./images/2img7.jpg" alt="открытая книга" width="370" />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Издание Limited Edition</h2>
                 <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img
                 src="./images/2img8.jpg"
                 alt="бирка lab el tag"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Проект LAB</h2>
                 <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li class="fc-item">
+            <li class="portfolio-item">
               <img
                 src="./images/2img9.jpg"
                 alt="набор текста за ноутбуком"
                 width="370"
               />
-              <div class="pc-name">
+              <div class="portfolio-name">
                 <h2 class="portfolio-titles">Growing Business</h2>
                 <p class="portfolio-text">Приложение</p>
               </div>
@@ -185,7 +183,7 @@
         >
         <address class="address">
           <ul class="page-footer list">
-            <li class="fl-items">
+            <li class="footer-items">
               <a
                 href="https://goo.gl/maps/XaRB1rdR4rSVDEf5A"
                 target="_blank"
@@ -195,12 +193,12 @@
                 г. Киев, пр-т Леси Украинки, 26
               </a>
             </li>
-            <li class="fl-items">
+            <li class="footer-items">
               <a href="mailto:info@devstudio.com" class="page-footer-link link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="fl-items">
+            <li class="footer-items">
               <a href="tel:+380961111111" class="page-footer-link link"
                 >+38 096 111 11 11</a
               >
